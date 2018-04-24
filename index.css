@@ -1,0 +1,13 @@
+/*general rules*/
+h3{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+/*custom rules*/
+#design-logo{
+  width: 500px;
+  height: 500px
+
+
+}
