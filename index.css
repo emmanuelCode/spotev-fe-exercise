@@ -4,6 +4,12 @@ h3{
 
 }
 
+p{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+
 /*custom rules*/
 #design-logo{
   width: 500px;
@@ -11,3 +17,10 @@ h3{
 
 
 }
+
+a {
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: lightgrey;
