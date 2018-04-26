@@ -9,6 +9,14 @@ p{
   margin: 0;
 }
 
+a {
+  color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
 
 /*custom rules*/
 #design-logo{
@@ -18,9 +26,21 @@ p{
 
 }
 
-a {
-  color: grey;
+#design-button{
+  width: 85px;
+  border-radius: 25px;
+
+
 }
-a:hover {
-  text-decoration: none;
-  color: lightgrey;
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  box-shadow: 2px 2px #888888;
+  margin: 15px;
+
+}

@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
 
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
-    <!--meta tag for mobile support-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--meta tag for mobile support-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Design Example</title>
+  <title>Design Example</title>
 
-    <!--bootstrap stylesheet-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!--bootstrap stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-    <!-- add google fonts stylesheet-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+  <!-- add google fonts stylesheet-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
 
-    <!--add font awesome stylesheet-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <!--add font awesome stylesheet-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
-    <!-- my stylesheet-->
-    <link rel="stylesheet" href="index.css">
+  <!-- my stylesheet-->
+  <link rel="stylesheet" href="index.css">
 
-    <meta name = "description" content="Take the journey to design your life" >
-
-
-  </head>
-
-  <body>
-
-    <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <h2 class="navbar-brand">Design.</h2>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-
-        </ul>
-
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
+  <meta name = "description" content="Take the journey to design your life" >
 
 
-      <img src="images/image.jpg"  alt="design" id="design-logo" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                                                             <!--resize component for mobile-->
+</head>
 
-    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" >
-      <h3>Design is a journey of <div style="color:orange">Discorvery</div></h3>
-      <p style="color:grey">Written by<br></p>
-      <p><strong>William Hernadez. April 05,2017<strong></p>
+<body>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h2 class="navbar-brand">Design.</h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
+  </nav>
+
+  <!--resize component for mobile-->
+  <img src="images/image.jpg"  alt="design" id="design-logo" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+
+
+  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" >
+    <h3>Design is a journey of <div style="color:orange">Discorvery</div></h3>
+    <p style="color:grey">Written by<br></p>
+    <p><strong>William Hernadez. April 05,2017<strong>  </p>
+    </div>
+
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+      <button type="button" class="btn btn-outline-secondary" id="design-button">Part 1</button>
+    </div>
+
+
+
+    <button type="button" class="btn btn-warning btn-circle"><i class="fas fa-play" style="color:white"></i></button>
+
 
     <!--footer-->
     <div id="footer" class="container">
@@ -67,6 +76,21 @@
       </ul>
     </div>
 
+
+
+
+
+    <!--Jquery library-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <!-- popper library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+    <!--bootstrap js-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <!--link to my javascript file-->
+    <script type="text/javascript" src="index.js"></script>
   </body>
 
-</html>
+  </html>
